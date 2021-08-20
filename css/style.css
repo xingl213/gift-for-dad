@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	clear: left;
+	margin-top: 300px;
+}
+
+#placeholder {
+	height: 10vw;
+}
+
+.block {
+	float: left;
+	width: 16.66%;
+	height: 10vw;
+}
+
+.content {
+	margin: 10px;
+	width: 90%;
+	height: 8vw;
+	text-align: center;
+}
+
+h2 {
+	margin: 20px;
+	font-size: 3em;
+}
+
+h2 > div {
+	margin: 20px;
+}
+
+#second {
+	text-indent: 2em;
+}
+
+#third {
+	text-align: right;
+}
+
+.code {
+	padding-top: 200px;
+	margin: 10%;
+	float: left;
+}
+
+.source {
+	float: left;
+	width: 33%;
+	height: 10vw;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 > a:link, h1 > a:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+h1 > a:hover, h1 > a:active {
+	text-decoration: underline;
+	color: purple;
+}
+
+#end {
+	text-align: right;
+	margin-right: 40px;
+}
