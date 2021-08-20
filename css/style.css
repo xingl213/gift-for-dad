@@ -59,6 +59,7 @@ h2 > div {
 	padding: 20px;
 	text-align: center;
 	font-size: 1.5em;
+	text-decoration: underline;
 }
 
 h1 > a:link, h1 > a:visited {
@@ -69,6 +70,14 @@ h1 > a:link, h1 > a:visited {
 h1 > a:hover, h1 > a:active {
 	text-decoration: underline;
 	color: purple;
+}
+
+div > a:link, div > a:visited {
+	color: black;
+}
+
+div > a:hover, div > a:active {
+	color: red;
 }
 
 #end {

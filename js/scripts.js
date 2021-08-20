@@ -117,7 +117,7 @@ function main () {
 		document.querySelector('body').style.backgroundColor = '#00cc00';
 		var filling51 = ['b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19', 'b24'];
 		for (var i = 0; i < filling51.length; i++) {
-			document.getElementById(filling51[i]).style.backgroundColor = 'red';
+			document.getElementById(filling51[i]).style.backgroundColor = 'darkgreen';
 		}
 		var filling52 = ['b20', 'b21', 'b22', 'b23'];
 		for (var i = 0; i < filling52.length; i++) {
