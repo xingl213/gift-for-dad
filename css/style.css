@@ -32,6 +32,8 @@ h1 {
 h2 {
 	margin: 20px;
 	font-size: 3em;
+	border: green solid 5px;
+	background-color: lightgreen;
 }
 
 h2 > div {
@@ -44,12 +46,6 @@ h2 > div {
 
 #third {
 	text-align: right;
-}
-
-.code {
-	padding-top: 200px;
-	margin: 10%;
-	float: left;
 }
 
 .source {

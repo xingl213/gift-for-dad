@@ -75,7 +75,7 @@ function main () {
 		for (var i = 0; i < filling24.length; i++) {
 			document.getElementById(filling24[i]).style.backgroundColor = 'none';
 		}
-		document.querySelector('body').style.backgroundColor = 'cyan';
+		document.querySelector('body').style.backgroundColor = 'purple';
 		var blocks3 = ['b3', 'b8', 'b10', 'b13', 'b17', 'b24'];
 		for (var i = 0; i < blocks3.length; i++) {
 			document.getElementById(blocks3[i]).style.backgroundColor = 'lightgreen';
@@ -89,7 +89,8 @@ function main () {
 		}
 		var filling31 = ['b1', 'b5', 'b12', 'b15', 'b20', 'b22'];
 		for (var i = 0; i < filling31.length; i++) {
-			document.getElementById(filling31[i]).style.backgroundColor = 'purple';
+			document.getElementById(filling31[i]).style.background = "url('images/balloons.png') no-repeat center";
+			document.getElementById(filling31[i]).style.backgroundSize = "70% 70%";
 		}
 		var filling32 = ['b2', 'b4', 'b6', 'b7', 'b7', 'b9', 'b11', 'b14', 'b16', 'b18', 'b19', 'b21', 'b23'];
 		for (var i = 0; i < filling32.length; i++) {
@@ -97,6 +98,10 @@ function main () {
 		}
 	} else if (click % 5 === 3) {    // display 4: after user click
 		clearall();
+		var filling31 = ['b1', 'b5', 'b12', 'b15', 'b20', 'b22'];
+		for (var i = 0; i < filling31.length; i++) {
+			document.getElementById(filling31[i]).style.background = "none";
+		}
 		document.querySelector('body').style.backgroundColor = 'darkblue';
 		for (var i = 0; i < blocks.length; i++) {
 			document.getElementById(blocks[i]).style.border = 'none';
@@ -110,7 +115,7 @@ function main () {
 		}
 		var filling42 = ['b3', 'b4', 'b5', 'b6', 'b7', 'b9', 'b10', 'b11', 'b12', 'b13', 'b15', 'b16', 'b17', 'b18', 'b19'];
 		for (var i = 0; i < filling42.length; i++) {
-			document.getElementById(filling42[i]).style.backgroundColor = 'red';
+			document.getElementById(filling42[i]).style.backgroundColor = 'orange';
 		}
 	} else if (click % 5 === 4) {    // display 5: after user click
 		clearall();
@@ -138,6 +143,8 @@ function main () {
 		var filling56 = ['p2', 'p4', 'p6', 'p7', 'p9', 'p11'];
 		for (var i = 0; i < filling56.length; i++) {
 			document.getElementById(filling56[i]).style.backgroundColor = '#ffff99';
+			document.getElementById(filling56[i]).style.background = "url('images/flowers.jpg') no-repeat center";
+			document.getElementById(filling56[i]).style.backgroundSize = "100% 100%";
 		}
 		settox('p20', '<span style="font-size: 6em; color: #ffff99;">生</span>');
 		settox('p21', '<span style="font-size: 6em; color: #ff99ff;">日</span>');
