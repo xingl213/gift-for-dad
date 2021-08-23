@@ -59,7 +59,7 @@ function main () {
 		document.querySelector('body').style.backgroundColor = 'black';
 		var filling21 = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18'];
 		for (var i = 0; i < filling21.length; i++) {
-			document.getElementById(filling21[i]).style.backgroundColor = 'white';
+			document.getElementById(filling21[i]).style.backgroundColor = 'lightyellow';
 		}
 		var filling22 = ['b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b19', 'b20', 'b21', 'b22', 'b23', 'b24'];
 		for (var i = 0; i < filling22.length; i++) {
